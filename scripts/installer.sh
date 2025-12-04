@@ -198,8 +198,17 @@ sleep 1
 print_important "Copying launcher files..."
 
 sleep 1
-rm -f scripts/launcher.sh
+
+
+#rm -f scripts/launcher.sh
 rm -f scripts/photoshop.desktop
+
+while read LINE
+do
+        [ "${LINE:203}" = "#" ] && continue
+
+        ...
+done
 
 echo "#\!/bin/bash
 cd \"$PWD/Ps-prefix/drive_c/Program Files/Adobe/Adobe Photoshop 2021/\"
