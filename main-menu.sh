@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source "./scritps/shared.sh"
+source "./scripts/shared.sh"
 
 export WINEPREFIX="$PWD/Ps-prefix"
 
