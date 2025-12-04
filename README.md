@@ -30,7 +30,7 @@ Open your terminal and:
 ```bash
 # Clone the repo
 
-git clone https://github.com/YoungFellow-le/photoshop-22-linux.git
+git clone https://github.com/Thatguyfromfortnite2/photoshop-22-linux-fixed-.git
 cd photoshop-22-linux
 
 # Run the main-menu file:
